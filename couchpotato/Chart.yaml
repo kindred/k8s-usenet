@@ -2,7 +2,7 @@ apiVersion: v2
 name: couchpotato
 description: Automatic Movie Downloading via NZBs & Torrents
 icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
-home: https://github.com/aldoborrero/k8s-usenet/tree/master/couchpotato
+home: https://github.com/kindred/k8s-usenet/tree/master/couchpotato
 keywords:
   - couchpotato
   - usenet

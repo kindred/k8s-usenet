@@ -1,7 +1,7 @@
 apiVersion: v2
 name: jackett
 description: API Support for your favorite torrent trackers.
-home: https://github.com/aldoborrero/k8s-usenet/tree/master/jackett
+home: https://github.com/kindred/k8s-usenet/tree/master/jackett
 keywords:
   - jackett
   - usenet

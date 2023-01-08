@@ -2,7 +2,7 @@ apiVersion: v2
 name: sonarr
 description: Sonarr is a television show downloading client
 icon: https://avatars1.githubusercontent.com/u/1082903?s=400&v=4
-home: https://github.com/aldoborrero/k8s-usenet/tree/master/sonarr
+home: https://github.com/kindred/k8s-usenet/tree/master/sonarr
 keywords:
   - sonarr
   - usenet

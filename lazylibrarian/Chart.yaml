@@ -2,7 +2,7 @@ apiVersion: v2
 name: lazylibrarian
 description: LazyLibrarian is a SickBeard, CouchPotato, Headphones-like application for ebooks, audiobooks and magazines
 icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png
-home: https://github.com/aldoborrero/k8s-usenet/tree/master/lazylibrarian
+home: https://github.com/kindred/k8s-usenet/tree/master/lazylibrarian
 keywords:
   - lazylibrarian
   - usenet

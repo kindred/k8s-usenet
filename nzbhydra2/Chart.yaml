@@ -2,7 +2,7 @@ apiVersion: v2
 name: nzbhydra2
 description: Usenet meta search
 icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
-home: https://github.com/aldoborrero/k8s-usenet/tree/master/nzbhydra2
+home: https://github.com/kindred/k8s-usenet/tree/master/nzbhydra2
 keywords:
   - nzbhydra2
   - usenet

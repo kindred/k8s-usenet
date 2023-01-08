@@ -2,7 +2,7 @@ apiVersion: v2
 name: headphones
 description: Headphones is an automatic music downloader for SABnzbd
 icon: https://github.com/rembo10/headphones/raw/master/data/images/headphoneslogo.png
-home: https://github.com/aldoborrero/k8s-usenet/tree/master/headphones
+home: https://github.com/kindred/k8s-usenet/tree/master/headphones
 keywords:
   - headphones
   - usenet

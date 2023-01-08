@@ -2,7 +2,7 @@ apiVersion: v2
 name: bazarr
 description: Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements.
 icon: https://www.bazarr.media/assets/img/logo.png
-home: https://github.com/aldoborrero/k8s-usenet/tree/master/bazarr
+home: https://github.com/kindred/k8s-usenet/tree/master/bazarr
 keywords:
   - bazarr
   - usenet

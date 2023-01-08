@@ -2,7 +2,7 @@ apiVersion: v2
 name: organizr
 description: organizr is a television show downloading client
 icon: https://github.com/causefx/Organizr/raw/v2-develop/plugins/images/organizr/logo-wide.png
-home: https://github.com/aldoborrero/k8s-usenet/tree/master/organizr
+home: https://github.com/kindred/k8s-usenet/tree/master/organizr
 keywords:
   - organizr
   - usenet

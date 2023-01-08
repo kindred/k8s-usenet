@@ -9,7 +9,7 @@
 Just issue the following command on your terminal in order to add this repository to your Helm repository lists (keep in mind that this repository uses the new V2 version format):
 
 ```console
-helm repo add k8s-usenet https://raw.githubusercontent.com/aldoborrero/k8s-usenet/master/charts/
+helm repo add k8s-usenet https://raw.githubusercontent.com/kindred/k8s-usenet/master/charts/
 ```
 
 ## Current supported services

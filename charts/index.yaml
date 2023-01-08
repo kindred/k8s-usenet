@@ -7,7 +7,7 @@ entries:
     description: Bazarr is a companion application to Sonarr and Radarr. It manages
       and downloads subtitles based on your requirements.
     digest: 553281aabd69ce3a7b0cd70e5cf7d4ace3cc922a5e9c0f412d070d48a32f0f87
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/bazarr
+    home: https://github.com/kindred/k8s-usenet/tree/master/bazarr
     icon: https://www.bazarr.media/assets/img/logo.png
     keywords:
     - bazarr
@@ -27,7 +27,7 @@ entries:
     created: "2023-01-08T19:38:33.088458704+11:00"
     description: Automatic Movie Downloading via NZBs & Torrents
     digest: 5a9cfcfd92f5f80d32525f0529b754028606e444b9b32a7020003936a23cea59
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/couchpotato
+    home: https://github.com/kindred/k8s-usenet/tree/master/couchpotato
     icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
     keywords:
     - couchpotato
@@ -47,7 +47,7 @@ entries:
     created: "2023-01-08T19:38:33.089521088+11:00"
     description: Headphones is an automatic music downloader for SABnzbd
     digest: 7c009201ce39d94bb904030d6eb6a0655e289dbd5bfcc77abf8e4358993ad835
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/headphones
+    home: https://github.com/kindred/k8s-usenet/tree/master/headphones
     icon: https://github.com/rembo10/headphones/raw/master/data/images/headphoneslogo.png
     keywords:
     - headphones
@@ -67,7 +67,7 @@ entries:
     created: "2023-01-08T19:38:33.090585871+11:00"
     description: API Support for your favorite torrent trackers.
     digest: 99a234f2d07077e42bf8bd4366f094847d2e0e2676e38bb5550801bd0ef2764b
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/jackett
+    home: https://github.com/kindred/k8s-usenet/tree/master/jackett
     keywords:
     - jackett
     - usenet
@@ -87,7 +87,7 @@ entries:
     description: LazyLibrarian is a SickBeard, CouchPotato, Headphones-like application
       for ebooks, audiobooks and magazines
     digest: 0a06c65d60175c25ae5bedb8d8d7282e912b5423063b64d5b203218fc0e87b67
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/lazylibrarian
+    home: https://github.com/kindred/k8s-usenet/tree/master/lazylibrarian
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png
     keywords:
     - lazylibrarian
@@ -107,7 +107,7 @@ entries:
     created: "2023-01-08T19:38:33.092758804+11:00"
     description: Looks and smells like Sonarr but made for music.
     digest: c158293ee4172aedf61b7c344d2f03633a0a0569f86cf24e24991fb4fc1599d1
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/lidarr
+    home: https://github.com/kindred/k8s-usenet/tree/master/lidarr
     icon: https://avatars1.githubusercontent.com/u/28475832?s=200&v=4
     keywords:
     - lidarr
@@ -147,7 +147,7 @@ entries:
     created: "2023-01-08T19:38:33.095070873+11:00"
     description: Radarr is a comic book downloading client
     digest: e1c1e3ef428dcd4b169be0e9ecc8faa55eb78476c2726a855fa639807e3abe2f
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/mylar
+    home: https://github.com/kindred/k8s-usenet/tree/master/mylar
     icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
     keywords:
     - mylar
@@ -187,7 +187,7 @@ entries:
     created: "2023-01-08T19:38:33.100622685+11:00"
     description: Usenet meta search
     digest: e663c6dcda0fbeafab51afd8e2d62d3ed2d51c6f49309a4fb83dbd607ab959bb
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/nzbhydra2
+    home: https://github.com/kindred/k8s-usenet/tree/master/nzbhydra2
     icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
     keywords:
     - nzbhydra2
@@ -207,7 +207,7 @@ entries:
     created: "2023-01-08T19:38:33.101576947+11:00"
     description: organizr is a television show downloading client
     digest: 396c6f4adc13277103403b917c41b34988d586ebe6f95ebb7a3bd978ac8fde81
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/organizr
+    home: https://github.com/kindred/k8s-usenet/tree/master/organizr
     icon: https://github.com/causefx/Organizr/raw/v2-develop/plugins/images/organizr/logo-wide.png
     keywords:
     - organizr
@@ -226,7 +226,7 @@ entries:
     created: "2023-01-08T19:38:33.102612574+11:00"
     description: Radarr is a movie downloading client
     digest: c18d6780e174703ec3b572727e4606e1befdaaa1cf7a1a90a2838ca4bae20c98
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/radarr
+    home: https://github.com/kindred/k8s-usenet/tree/master/radarr
     icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
     keywords:
     - radarr
@@ -267,7 +267,7 @@ entries:
     created: "2023-01-08T19:38:33.104605835+11:00"
     description: Sonarr is a television show downloading client
     digest: 42b1847c2c9f26185f5d6366ca12fc181dcf760b45e3ad5a494774d042645422
-    home: https://github.com/aldoborrero/k8s-usenet/tree/master/sonarr
+    home: https://github.com/kindred/k8s-usenet/tree/master/sonarr
     icon: https://avatars1.githubusercontent.com/u/1082903?s=400&v=4
     keywords:
     - sonarr

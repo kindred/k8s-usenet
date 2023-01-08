@@ -5,7 +5,7 @@ This is a helm chart for [nzbget](https://nzbget.org/) leveraging the [Linuxserv
 ## TL;DR
 
 ```shell
-$ helm repo add k8s-usenet https://raw.githubusercontent.com/aldoborrero/k8s-usenet/master/charts/
+$ helm repo add k8s-usenet https://raw.githubusercontent.com/kindred/k8s-usenet/master/charts/
 $ helm install k8s-usenet/nzbget
 ```
 
