@@ -41,7 +41,7 @@ The following tables lists the configurable parameters of the Sentry chart and t
 | `puid`                                 | process userID the nzbget instance should run as                                             | `1001`               |
 | `pgid`                                 | process groupID the nzbget instance should run as                                            | `1001`               |
 | `service.type`                         | Kubernetes service type for the nzbget GUI                                                   | `ClusterIP`          |
-| `service.port`                         | Kubernetes port where the nzbget GUI is exposed                                              | `8080`               |
+| `service.port`                         | Kubernetes port where the nzbget GUI is exposed                                              | `6789`               |
 | `service.annotations`                  | Service annotations for the nzbget GUI                                                       | `{}`                 |
 | `service.labels`                       | Custom labels                                                                                | `{}`                 |
 | `service.loadBalancerIP`               | Loadbalance IP for the nzbget GUI                                                            | `{}`                 |
