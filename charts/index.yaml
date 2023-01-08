@@ -3,10 +3,10 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.312469766+11:00"
+    created: "2023-01-08T20:51:22.5737454+11:00"
     description: Bazarr is a companion application to Sonarr and Radarr. It manages
       and downloads subtitles based on your requirements.
-    digest: 8957b5011b730caa9d4ecbd22cb93e981f37cbeb04815fb49c7adba7f9204fe1
+    digest: 9725e3c3082502fc8a5324c6a7af22a5422ee9a4269f3d561e4e5d52c02fa8c6
     home: https://github.com/kindred/k8s-usenet/tree/master/bazarr
     icon: https://www.bazarr.media/assets/img/logo.png
     keywords:
@@ -24,9 +24,9 @@ entries:
   couchpotato:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.313521943+11:00"
+    created: "2023-01-08T20:51:22.574913781+11:00"
     description: Automatic Movie Downloading via NZBs & Torrents
-    digest: 53f0f35e11d90a507f1634d4043bf6785717105e49cf4934e7082f985757c7e7
+    digest: 8111679beca87c6bda218ae28d2b8b800c5e04faabf90d5ac79cd2bb755116f7
     home: https://github.com/kindred/k8s-usenet/tree/master/couchpotato
     icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
     keywords:
@@ -44,9 +44,9 @@ entries:
   headphones:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.314669659+11:00"
+    created: "2023-01-08T20:51:22.57603669+11:00"
     description: Headphones is an automatic music downloader for SABnzbd
-    digest: e6f96baa31419e438c0165cb2d9c77b1467835c88df8995e0718b142460a6c2a
+    digest: e31b004abbfef605feb004ef799b7e7a241bd1828981fd7c1c47b75703de54fb
     home: https://github.com/kindred/k8s-usenet/tree/master/headphones
     icon: https://github.com/rembo10/headphones/raw/master/data/images/headphoneslogo.png
     keywords:
@@ -64,9 +64,9 @@ entries:
   jackett:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.315663884+11:00"
+    created: "2023-01-08T20:51:22.577052451+11:00"
     description: API Support for your favorite torrent trackers.
-    digest: 6e67574286a8b513ef8229022178121f9f0c7d820b2071f022706eee675f2830
+    digest: 55c7a4af54a359e5e66ee8b3d2f97b1245941990891fa32697a34a2ec44ca192
     home: https://github.com/kindred/k8s-usenet/tree/master/jackett
     keywords:
     - jackett
@@ -83,10 +83,10 @@ entries:
   lazylibrarian:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.316784153+11:00"
+    created: "2023-01-08T20:51:22.578523861+11:00"
     description: LazyLibrarian is a SickBeard, CouchPotato, Headphones-like application
       for ebooks, audiobooks and magazines
-    digest: 5974d97aca965f042e0336ed2ba41194283e29185bc21888a9a7da1b8a3ff84a
+    digest: 031ffcacb3b127bb3bde0bb365d989cc38a93fe87182fcc02d128cd6f96e5dec
     home: https://github.com/kindred/k8s-usenet/tree/master/lazylibrarian
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png
     keywords:
@@ -104,9 +104,9 @@ entries:
   lidarr:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.317927239+11:00"
+    created: "2023-01-08T20:51:22.579670197+11:00"
     description: Looks and smells like Sonarr but made for music.
-    digest: 7f57466a57a82cdd9cfabe71bff26eaa4707ee6fad2ce5bc6cb815eb30c02f95
+    digest: cb8b8f934d1a0d8624f81af7e183e6f69da35489ee8178606639b948efc40e15
     home: https://github.com/kindred/k8s-usenet/tree/master/lidarr
     icon: https://avatars1.githubusercontent.com/u/28475832?s=200&v=4
     keywords:
@@ -124,10 +124,10 @@ entries:
   medusa:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.319009227+11:00"
+    created: "2023-01-08T20:51:22.580737437+11:00"
     description: Automatic Video Library Manager for TV Shows. It watches for new
       episodes of your favorite shows, and when they are posted it does its magic.
-    digest: a0b93bb15972bc72753419455e2df4ee71e267e7b20a3bd85491cf83f8c18c0a
+    digest: 6c144f64b689feab5987b9d2a5cb8cabf94190871c13adf7fa16de39defc32b4
     home: https://github.com/pymedusa/medusa
     icon: https://camo.githubusercontent.com/89e3583d77e019c4d77db7698c7070b684a7978a/68747470733a2f2f63646e2e7261776769742e636f6d2f70796d65647573612f6d65647573612e6769746875622e696f2f34333630643439342f696d616765732f6c6f676f2f6e65772d6c6f676f2e706e67
     keywords:
@@ -144,9 +144,9 @@ entries:
   mylar:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.320060507+11:00"
+    created: "2023-01-08T20:51:22.583214967+11:00"
     description: Radarr is a comic book downloading client
-    digest: 8cc29e097df37b8a347555e21bd4fc5c1210c349aed753c83167c1d8c8e45a14
+    digest: bd2532fcf61deec1446375617a528ec17a4b89d594861c42e9a380e085ae2713
     home: https://github.com/kindred/k8s-usenet/tree/master/mylar
     icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
     keywords:
@@ -164,10 +164,10 @@ entries:
   nzbget:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.321082131+11:00"
+    created: "2023-01-08T20:51:22.584226837+11:00"
     description: nzbget makes Usenet as simple and streamlined as possible by automating
       everything we can.
-    digest: e23336069ce3e17f3a245ce1f8e5d211501b53bda403973b5ad4a864e6b541e1
+    digest: 8d6cd72a2a8680b731cc4c49563ce338ccf7cc038c7bb6520ab68d971b0a3121
     home: https://nzbget.net/
     keywords:
     - nzbget
@@ -184,9 +184,9 @@ entries:
   nzbhydra2:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.322017422+11:00"
+    created: "2023-01-08T20:51:22.585376454+11:00"
     description: Usenet meta search
-    digest: 44a9e720366a36fb2921364d388d26f418757aaca2f3dd2294950c20159266d4
+    digest: 0c40cb4be644ff1fc3dab6369fcda658aeac2848f3055dbe2f3aa16d0936ece0
     home: https://github.com/kindred/k8s-usenet/tree/master/nzbhydra2
     icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
     keywords:
@@ -204,9 +204,9 @@ entries:
   organizr:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-01-08T20:50:00.322924016+11:00"
+    created: "2023-01-08T20:51:22.58755093+11:00"
     description: organizr is a television show downloading client
-    digest: bb665e3bbf4f964ff1d9d76d9feb2252e8116ba10e06b7b6086fa0b08b6b5a5d
+    digest: 5e50abf81a494ce22b8a01638111c6c2163ca270b99be1b4ad94860d7279e64b
     home: https://github.com/kindred/k8s-usenet/tree/master/organizr
     icon: https://github.com/causefx/Organizr/raw/v2-develop/plugins/images/organizr/logo-wide.png
     keywords:
@@ -223,9 +223,9 @@ entries:
   radarr:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.32493724+11:00"
+    created: "2023-01-08T20:51:22.589296844+11:00"
     description: Radarr is a movie downloading client
-    digest: 490129b7ed58dd591c9e0e7b10820c65ce8b9b61233b881a7bbb12b32e047abd
+    digest: 3bcf6be666b314f3e4324dc97d21fae0ca43a671b5326ba6478c199a2c84c682
     home: https://github.com/kindred/k8s-usenet/tree/master/radarr
     icon: https://avatars3.githubusercontent.com/u/25025331?s=400&v=4
     keywords:
@@ -243,10 +243,10 @@ entries:
   sabnzbd:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.327482991+11:00"
+    created: "2023-01-08T20:51:22.593254225+11:00"
     description: Sabnzbd makes Usenet as simple and streamlined as possible by automating
       everything we can.
-    digest: 45d1fb00ac14c5e9a2729307c5508a45bcf82eede913277c7c6cbf463aaaac73
+    digest: 16a8ce0f0edfd00f2a160376f3b5a02ca3e939fe9b36b869d238a1175b3c0e32
     home: https://sabnzbd.org/
     icon: https://sabnzbd.org/images/logo-full.svg
     keywords:
@@ -264,9 +264,9 @@ entries:
   sonarr:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.328970112+11:00"
+    created: "2023-01-08T20:51:22.595075924+11:00"
     description: Sonarr is a television show downloading client
-    digest: d3e9628364ef6ff6f36d7b754f6077b8935ab90936db8553c1d01e2762d74b89
+    digest: ca3169ca60bbd2321280bb214b51167a80a107dc44057c104d9820c4603e1c7f
     home: https://github.com/kindred/k8s-usenet/tree/master/sonarr
     icon: https://avatars1.githubusercontent.com/u/1082903?s=400&v=4
     keywords:
@@ -284,9 +284,9 @@ entries:
   syncthing:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.329914898+11:00"
+    created: "2023-01-08T20:51:22.596071277+11:00"
     description: Continuous file synchronization program.
-    digest: 7216f0a469f1946ccf6d68f5e7f62c267fcb57bf0c2c453ba6054c5616039516
+    digest: 91ea659e0d8b5a1b8e24cfdb28c308ab5ccb0fb0c5d7765cdc145be2a15df312
     home: https://syncthing.net/
     icon: https://syncthing.net/img/logo-horizontal.svg
     keywords:
@@ -303,9 +303,9 @@ entries:
   transmission:
   - apiVersion: v2
     appVersion: amd64-latest
-    created: "2023-01-08T20:50:00.331094597+11:00"
+    created: "2023-01-08T20:51:22.597209522+11:00"
     description: A fast, easy and free Bittorrent client.
-    digest: e22ec2a191d172ed9c7d54ec36d8e07ac77ee1d5c7b3d430431ed4abc0ae014f
+    digest: a31a83226e833660288dc644bc573b98d2bb9d621c1fc72c18736524704ef58e
     home: https://transmissionbt.com/
     keywords:
     - transmission
@@ -318,4 +318,4 @@ entries:
     urls:
     - transmission-1.0.0.tgz
     version: 1.0.0
-generated: "2023-01-08T20:50:00.311125285+11:00"
+generated: "2023-01-08T20:51:22.572398232+11:00"
