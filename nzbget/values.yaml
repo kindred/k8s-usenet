@@ -6,7 +6,8 @@ replicaCount: 1
 
 image:
   repository: linuxserver/nzbget
-  tag: amd64-latest
+  # tag: amd64-latest
+  tag: version-v21.1
   pullPolicy: Always
 
 strategyType: Recreate
@@ -69,7 +70,7 @@ securityContext:
 
 service:
   type: ClusterIP
-  port: 8080
+  port: 6789
   ## Specify the nodePort value for the LoadBalancer and NodePort service types.
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   ##
