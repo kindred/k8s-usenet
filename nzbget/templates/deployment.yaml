@@ -33,25 +33,25 @@ spec:
             - configMapRef:
                 name: {{ include "nzbget.fullname" . }}-env-config
           ports:
-            - name: nzbget-http
+            - name: http
               containerPort: {{ .Values.service.port }}
               protocol: TCP
-          # livenessProbe:
-          #   httpGet:
-          #     path: /
-          #     port: nzbget-http
-          #   initialDelaySeconds: {{ .Values.probes.liveness.initialDelaySeconds }}
-          #   periodSeconds: {{ .Values.probes.liveness.periodSeconds }}
-          #   timeoutSeconds: {{ .Values.probes.liveness.timeoutSeconds }}
-          #   failureThreshold: {{ .Values.probes.liveness.failureThreshold }}
-          # readinessProbe:
-          #   httpGet:
-          #     path: /
-          #     port: nzbget-http
-          #   initialDelaySeconds: {{ .Values.probes.readiness.initialDelaySeconds }}
-          #   periodSeconds: {{ .Values.probes.readiness.periodSeconds }}
-          #   timeoutSeconds: {{ .Values.probes.readiness.timeoutSeconds }}
-          #   failureThreshold: {{ .Values.probes.readiness.failureThreshold }}
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+            initialDelaySeconds: {{ .Values.probes.liveness.initialDelaySeconds }}
+            periodSeconds: {{ .Values.probes.liveness.periodSeconds }}
+            timeoutSeconds: {{ .Values.probes.liveness.timeoutSeconds }}
+            failureThreshold: {{ .Values.probes.liveness.failureThreshold }}
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+            initialDelaySeconds: {{ .Values.probes.readiness.initialDelaySeconds }}
+            periodSeconds: {{ .Values.probes.readiness.periodSeconds }}
+            timeoutSeconds: {{ .Values.probes.readiness.timeoutSeconds }}
+            failureThreshold: {{ .Values.probes.readiness.failureThreshold }}
           volumeMounts:
             - mountPath: /config
               name: config
