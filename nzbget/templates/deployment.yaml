@@ -33,13 +33,13 @@ spec:
             - configMapRef:
                 name: {{ include "nzbget.fullname" . }}-env-config
           ports:
-            - name: http
+            - name: nzbget-http
               containerPort: {{ .Values.service.port }}
               protocol: TCP
           livenessProbe:
             httpGet:
               path: /
-              port: 6789
+              port: nzbget-http
             initialDelaySeconds: {{ .Values.probes.liveness.initialDelaySeconds }}
             periodSeconds: {{ .Values.probes.liveness.periodSeconds }}
             timeoutSeconds: {{ .Values.probes.liveness.timeoutSeconds }}
@@ -47,7 +47,7 @@ spec:
           readinessProbe:
             httpGet:
               path: /
-              port: 6789
+              port: nzbget-http
             initialDelaySeconds: {{ .Values.probes.readiness.initialDelaySeconds }}
             periodSeconds: {{ .Values.probes.readiness.periodSeconds }}
             timeoutSeconds: {{ .Values.probes.readiness.timeoutSeconds }}
