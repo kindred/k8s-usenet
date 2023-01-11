@@ -41,4 +41,5 @@ spec:
                   number: 8989
         {{- end }}
   {{- end }}
+  ingressClassName: nginx
 {{- end }}
