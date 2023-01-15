@@ -34,7 +34,7 @@ The following tables lists the configurable parameters of the Sentry chart and t
 | Parameter                              | Description                                                                                  | Default              |
 | -------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------- |
 | `image.repository`                     | Image repository                                                                             | `linuxserver/sonarr` |
-| `image.tag`                            | Image tag. Possible values listed [here](https://hub.docker.com/r/linuxserver/sonarr/tags/). | `amd64-latest`       |
+| `image.tag`                            | Image tag. Possible values listed [here](https://hub.docker.com/r/linuxserver/sonarr/tags/). | `version-3.0.9.1549` |
 | `image.pullPolicy`                     | Image pull policy                                                                            | `Always`             |
 | `strategyType`                         | Specifies the strategy used to replace old Pods by new ones                                  | `Recreate`           |
 | `timezone`                             | Timezone the sonarr instance should run as, e.g. 'America/New_York'                          | `UTC`                |

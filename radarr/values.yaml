@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: linuxserver/radarr
-  tag: amd64-latest
+  tag: version-4.3.2.6857
   pullPolicy: Always
 
 strategyType: Recreate

@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: linuxserver/sonarr
-  tag: amd64-latest
+  tag: version-3.0.9.1549
   pullPolicy: Always
 
 strategyType: Recreate
